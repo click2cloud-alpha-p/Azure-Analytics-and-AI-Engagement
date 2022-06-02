@@ -1,4 +1,4 @@
-Get-Content "$PSScriptRoot\automation_script.ps1"   *> $null  # Source the automation script.
+Get-Content "c:\jenkins-test\workspace\DDib\Manufacturing\automation\automation_script.ps1"   *> $null  # Source the automation script.
 
 $yes = New-Object System.Management.Automation.Host.ChoiceDescription "&Yes","I accept the license agreement."
 $no = New-Object System.Management.Automation.Host.ChoiceDescription "&No","I do not accept and wish to stop execution."
