@@ -1737,7 +1737,7 @@ Write-Host  "-----------------Uploading Cosmos Data Complete--------------"
 #Write-Host  "-----------------Cognitive service project publish completed ---------------"
 Add-Content log.txt "-----------------Execution Complete---------------"
 Write-Host  "-----------------Execution Complete----------------"
-}
+
 
 # Get Access key of storage account
 function getStorageAccountAccessKey(){
