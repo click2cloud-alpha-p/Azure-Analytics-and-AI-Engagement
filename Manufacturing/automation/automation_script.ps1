@@ -144,4 +144,4 @@ createResourceGroup
 createStorageAccount
 createPowerBIworkspace
 createCustomDeployment
-runManufacturingSetup
+#runManufacturingSetup
